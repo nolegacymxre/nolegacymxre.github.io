@@ -1,0 +1,20 @@
+/* 自定义样式 */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    padding: 100px 0;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    margin-top: 50px;
+}
