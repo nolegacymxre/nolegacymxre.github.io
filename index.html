@@ -55,7 +55,7 @@
 		const resources = {
 			"2025cjgc": "http://i8c.cn/xgWF2",
 			"8xbook": "http://i8c.cn/1YmiQ",
-			"9xengv": "http://i8c.cn/zp2wJ",
+			"9xengv": "http://i8c.cn/t4Tet",
 			"mchtjd": "http://i8c.cn/uNKjh"
 		};
 
@@ -220,25 +220,28 @@
                     </div>
                 </div>
             </div>
-			<div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Astral异地组网软件</h5>
-                        <p class="card-text">可进行游戏联机等操作</p>
-                        <a href="http://i8c.cn/KHQCK" class="btn btn-primary">下载安卓端</a>
-						<a href="http://i8c.cn/Ub1zv" class="btn btn-primary">下载Windows端</a>
-						<a href="javascript:void(0)" class="btn btn-primary" id="copyBtn">复制常用房码</a>
+			<div class="col-md-3 mb-4">
+				<div class="card h-100">
+					<div class="card-body">
+						<h5 class="card-title">Astral异地组网软件</h5>
+						<p class="card-text">可进行游戏联机等操作</p>
+						<div class="d-flex flex-column gap-2 mt-2">
+							<a href="http://i8c.cn/KHQCK" class="btn btn-primary">下载安卓端</a>
+							<a href="http://i8c.cn/Ub1zv" class="btn btn-primary">下载Windows端</a>
+							<a href="javascript:void(0)" class="btn btn-primary" id="copyBtn">复制常用房间码</a>
+						</div>
 						<script>
 							document.getElementById('copyBtn').addEventListener('click', function() {
-								navigator.clipboard.writeText('astral://room?code=H4sIAAAAAAAACh3MQQ4CIQwF0Lv89TSBKZSW2xQKGzNq3Bnj3U18B3gf3NFxPe639b6miODACx2uMcOKkI9yUll706ibybI628ktdOPAEx1pjJSqOWnwpKJcyDQbKY_cQlz8v17oEBlSpwbx2RoVX0G-fVNNy2yOZtMLDiz0_P0B5b6MUJoAAAA').then(function() {
+								navigator.clipboard.writeText('astral://room?code=H4sIAAAAAAAACh3MQQ4CIQwF0Lv89TSBKZSW2xQKGzNq3Bnj3U18B3gf3NFxPe639b6miODACx2uMcOKkI9yUll706ibybI628ktdOPAEx1pjJSqOWnwpKJcyDQbKY/cQlz8v17oEBlSpwbx2RoVX0G+fVNNy2yOZtMLDiz0/P0B5b6MUJoAAAA').then(function() {
 									alert('复制成功');
 								}).catch(function() {
 									alert('复制失败');
 								});
 							});
 						</script>
-                    </div>
-                </div>
+						</div>
+					</div>
+				</div>
             </div>
         </div>
     </section>
